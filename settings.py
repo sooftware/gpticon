@@ -161,8 +161,17 @@ DEFAULT_STYLES = {
     "Watercolor Style": "a watercolor portrait illustration in soft tones and brush strokes",
     "Black & White Sketch": "a monochrome pencil sketch portrait with detailed shading",
     "Anime Style": "an anime-style headshot with large expressive eyes, cel-shaded",
-    "Minimal Character": "a flat, minimalistic character icon in pastel tones, Korean emoticon style"
+    "Minimal Character": "a flat, minimalistic character icon in pastel tones, Korean emoticon style",
+    "Ghibli Style": "a Studio Ghibli-style soft and whimsical character with watercolor textures and dreamy atmosphere",
+    "Cyberpunk Neon": "a futuristic character portrait with neon lights, cyberpunk aesthetics, and dark urban background",
+    "Retro Pixel Art": "a nostalgic 8-bit pixel art character in chibi form, reminiscent of classic video games",
+    "Barbiecore": "a glamorous, pastel-colored fashion doll illustration with sparkles and exaggerated cute features",
+    "Claymation Style": "a stop-motion clay-style character with textured surfaces and handmade aesthetic",
+    "Y2K Magazine Cover": "a glossy Y2K-style character portrait with glitter makeup, chunky highlights, and retro fonts",
+    "Dark Academia": "a vintage character illustration wearing tweed or turtlenecks, moody lighting and rich sepia tones",
+    "Paper Collage": "a handmade cutout-style character with layered textures and paper edges, scrapbook aesthetic",
 }
+
 IMAGE_GENERATE_PROMPT = """
 Generate a 3x3 grid of square KakaoTalk-style cartoon emoticons based on the person's appearance in the reference photo. 
 Each cell should depict a different action-based pose such as: {pose_text}.
