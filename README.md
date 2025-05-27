@@ -10,9 +10,9 @@ _(No signup. No installs. Just upload and smile.)_
 ---
 
 <div align="center">
-  <img src="assets/musk-example.png" width="450"/>
+  <img src="assets/friend.png" width="450"/>
   <br/>
-  <sub>🧠 One selfie, nine vibes. Illustrated Pixar-style.</sub>
+  (Used my friend’s photo for this test... didn’t ask for permission 😅)</sub>
 </div>
 
 ---
