@@ -4,18 +4,23 @@ import openai
 import streamlit as st
 from PIL import Image, ImageDraw
 from utils import *
+from settings import DEFAULT_STYLES
+
+
+UPLOAD_IMAGE_WIDTH = 200
+GENERATED_IMAGE_WIDTH = 400
 
 # Streamlit UI setup
 st.set_page_config(page_title="gpticon - AI Character Emoticons", layout="wide")
 
-st.title("🧸 gpticon - GPT-powered Character Emoticons")
+st.title("😎 gpticon - GPT-powered Character Emoticons")
 st.caption("Upload your selfie, pick a vibe, and get a 3x3 grid of action emoticons!")
 
 image_file = st.file_uploader("📷 Upload your selfie (reference image)", type=["jpg", "jpeg", "png"])
 if image_file:
     image_bytes = image_file.read()
     uploaded_image = Image.open(io.BytesIO(image_bytes))
-    st.image(uploaded_image, caption="Uploaded Image Preview", width=200)
+    st.image(uploaded_image, caption="Uploaded Image Preview", width=UPLOAD_IMAGE_WIDTH)
 
 
 with st.sidebar:
@@ -58,10 +63,10 @@ if st.button("✨ Generate Emoticons"):
                 img = Image.open(io.BytesIO(image_bytes)).convert("RGBA")
                 cropped_images = split_by_detected_lines(img)
 
-                left_col, right_col = st.columns([1, 1])  # 또는 [1, 1.2] 등 비율 조정 가능
+                left_col, right_col = st.columns([1, 1])
 
                 with left_col:
-                    st.image(img, caption="3x3 Emoticon Grid", width=400)
+                    st.image(img, caption="3x3 Emoticon Grid", width=GENERATED_IMAGE_WIDTH)
 
                 with right_col:
                     st.markdown("### Poses in this grid:")
