@@ -57,7 +57,7 @@ Here’s what a typical 3x3 grid looks like:
 
 ## 🤔 Why a 3x3 Grid?
 
-There are **two key reasons** why gpticon creates a 3x3 grid instead of generating individual emoticons:
+There are **three key reasons** why gpticon creates a 3x3 grid instead of generating individual emoticons:
 
 1. **Efficiency** – Creating one image with all 9 emoticons **saves API calls**, time, and money.  
 2. **Consistency** – Generating them together in a single image ensures the **art style and character design remain coherent** across all poses.
