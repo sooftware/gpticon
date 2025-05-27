@@ -12,7 +12,7 @@ _(No signup. No installs. Just upload and smile.)_
 <div align="center">
   <img src="assets/friend.png" width="450"/>
   <br/>
-  (Used my friend’s photo for this test... didn’t ask for permission 😅)</sub>
+  (Used my friend’s photo for this test...)</sub>
 </div>
 
 ---
