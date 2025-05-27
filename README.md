@@ -12,7 +12,7 @@ _(No signup. No installs. Just upload and smile.)_
 <div align="center">
   <img src="assets/musk-example.png" width="450"/>
   <br/>
-  <sub>🧠 One selfie, nine vibes. Illustrated Webtoon-style.</sub>
+  <sub>🧠 One selfie, nine vibes. Illustrated Pixar-style.</sub>
 </div>
 
 ---
